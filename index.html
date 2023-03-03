@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Library</title>
+</head>
+<body>
+  <main>
+    <h1>Heather's Books</h1>
+    <section id="book-cards">
+      <button class="button" id="newBookButton" type="button">Add New Book</button>
+    </section>
+
+    <form id="add-form">
+      <label for="book-title">Book Title:</label><br>
+      <input type="text" id="book-title" name="book-title"><br>
+
+      <label for="author">Author:</label><br>
+      <input type="text" id="author" name="author"><br>
+
+      <label for="pages">Number of Pages:</label><br>
+      <input type="number" id="pages" name="pages"><br>
+
+      <fieldset>
+        <legend>Have you read the book?</legend><br>
+        
+        <input type="radio" id="yes-read" name="read" value="yes">
+        <label for="yes-read">YES</label>
+
+        <input type="radio" id="no-read" name="read" value="no">
+        <label for="no-read">NO</label>
+      </fieldset>
+
+      <button id="submit-button" class="button" type="submit">Submit</button>
+    </form>
+  </main>
+  <script src="scripts.js"></script>
+</body>
+</html>
