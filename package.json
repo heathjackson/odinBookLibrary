@@ -1,0 +1,30 @@
+{
+  "name": "odinbooklibrary",
+  "version": "1.0.0",
+  "description": "",
+  "main": "scripts.js",
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "eslintConfig": {
+    "extends": [
+      "wesbos"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heathjackson/odinBookLibrary.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/heathjackson/odinBookLibrary/issues"
+  },
+  "homepage": "https://github.com/heathjackson/odinBookLibrary#readme",
+  "dependencies": {
+    "@rushstack/eslint-patch": "^1.2.0",
+    "eslint-config-wesbos": "^3.2.3"
+  }
+}
