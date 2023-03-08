@@ -44,7 +44,11 @@ submitButton.addEventListener('click', (event) => {
 
   for (const radioButton of radioButtons) {
     if (radioButton.checked) {
-      read = radioButton.value;
+      if (radioButton.value === 'yes') {
+        read = 'yes read';
+      } else {
+        read = 'not read yet';
+      }
     }
   }
 
